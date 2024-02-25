@@ -90,7 +90,7 @@ export const useGestures = ({
 
   const onInteractionEnded = () => {
     if (isInteracting.current && !isPinching.current && !isPanning.current) {
-      reset();
+      // reset();
       isInteracting.current = false;
       onInteractionEnd?.();
     }
